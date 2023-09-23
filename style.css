@@ -21,7 +21,7 @@ body {
 
     overflow: hidden;
 
-    background: var(--primary-color);
+    background: linear-gradient(-160deg, rgba(173,191,250,1) 0%, rgba(222,173,242,1) 30%, rgba(255,89,102,1) 68%, rgba(255,158,179,1) 100%);
 }
 
 header {
@@ -111,4 +111,19 @@ header nav #toggle {
 .home button:hover {
     background: transparent;
     color: var(--secondary-color);
+}
+.home .images .img-1,
+.home .images .img-2,
+.home .images .img-3,
+.home .images .img-4,
+.home .images .img-5,
+.home .images .img-6,
+.home .images .img-7 {
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
 }
